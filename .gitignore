@@ -1,0 +1,66 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Java build output directories
+/target/
+/out/
+
+# Ignore Maven wrapper files
+mvnw
+mvnw.cmd
+
+# Ignore logs
+*.log
+
+# Ignore dependency directories
+/lib/
+
+# Ignore temporary files created by OS or IDE
+.DS_Store
+Thumbs.db
+
+# Ignore compiled class files
+*.class
+
+# Ignore test reports (if you're using tools like TestNG, JUnit, etc.)
+/test-output/
+/reports/
+
+# Ignore configuration files for Selenium WebDriver (e.g., chromedriver)
+/selenium-drivers/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
